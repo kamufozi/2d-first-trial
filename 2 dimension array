@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int marks[4][5];
+  cout<<"enter student's marks";
+  for(int y=0;y<4;y++){
+    for(int u=0;u<5;u++){
+      cin>>marks[y][u];
+    }
+  }
+}
